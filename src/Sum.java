@@ -15,7 +15,7 @@ public class Sum {
 		b=Integer.parseInt(s2);
 		
 		System.out.println(a+" "+b);
-		System.out.printf("a와 b의 합은 %d입니다.", a+b);
+	
 	}
 
 }
