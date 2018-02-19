@@ -21,7 +21,7 @@ public class Prompt {
 		month=scanner.nextInt();
 		
 		if(month==-1)
-			break;
+			break; 
 		if(month>12)
 			continue;
 		
