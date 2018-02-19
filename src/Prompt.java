@@ -12,7 +12,7 @@ public class Prompt {
 		int month=1, year=1;
 		
 		while(true)
-		{
+		{ 
 		System.out.println("원하는 년을 입력하세요 : ");
 		System.out.print("YEAR> ");
 		year=scanner.nextInt();
