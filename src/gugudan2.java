@@ -9,8 +9,8 @@ public class gugudan2 {
 		return result;
 	}
 	
-	public static void print(int[] result){
-		for(int i=0;i<result.length;i++)
+	public static void print(int[] result, int times){
+		for(int i=0;i<times;i++)
 		{
 			System.out.println(result[i]);
 		}	

@@ -1,12 +1,19 @@
+import java.util.Scanner;
 
 public class gugudanmain {
 	public static void main(String[] args){
+		
 		int[] gugudan=new int[9];
 		
-		for(int i=2;i<10;i++)
-		{
-			gugudan=gugudan2.caculate(i);
-			gugudan2.print(gugudan);
-		}
+		System.out.println("숫자 2개 입력 : ");
+		Scanner scanner = new Scanner(System.in);
+		
+		String inputValue = scanner.nextLine();
+		String[] splitedValue = inputValue.split(",");
+		int first = Integer.parseInt(splitedValue[0]);
+		int second = Integer.parseInt(sp2litedValue[1]);
+		
+		gugudan=gugudan2.caculate(first);
+		gugudan2.print(gugudan, second);
 	}
 }
